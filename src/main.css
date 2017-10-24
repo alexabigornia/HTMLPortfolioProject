@@ -6,10 +6,10 @@ html {
 
 .header {
 	background-color:#000000;
+	padding: 20px 25px 20px 25px;
+	text-align: center;
 }
 
 .header h1, h2{
 	color: #ffffff;
-	padding: 20px 25px 20px 25px;
-	text-align: center;
 }
