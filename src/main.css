@@ -8,8 +8,9 @@ html {
 	background-color:#000000;
 	padding: 20px 25px 20px 25px;
 	text-align: center;
+	color:#ffffff;
 }
 
-.header h1, h2{
-	color: #ffffff;
+.header h1{
+	font-size:50px;
 }
