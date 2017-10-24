@@ -4,20 +4,63 @@ html {
 	line-height: 17px;
 }
 
+html, body, h1, h2, h3{
+	margin: 0 0;
+}
+
+.wrapper {
+	width: 800px;
+	text-align: left;
+	padding: 50px 0px 35px 0px;
+}
+
 .header {
 	background-color:#000000;
-	padding: 20px 25px 20px 25px;
+	background-image: url(http://www.tutorialchip.com/wp-content/uploads/2011/06/Outstanding-Blue-Pattern-520x346.jpg);
+	background-repeat: repeat;
+	padding: 100px 25px 100px 25px;
 	text-align: center;
-	color:#ffffff;
 }
 
-.header h1{
-	font-size:50px;
+div.frame {
+	background-color: rgba( 3, 71, 104, .7);
+	padding: 40px 20px 30px 20px;
+	width: 450px;
+	margin: auto;
+}
+
+div.frame h1 {
+	font-size:55px;
 	font-family: Georgia, Helvetica, Arial, sans-serif;
+	color: #ffffff;
 }
 
-.header h2{
-	font-size: 18px;
+div .frame h2{
+	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 6px;
+	margin-top: 30px;
+	color: #ffffff;
+}
+
+.tagline {
+	background-color: #fd8524;
+	color: #ffffff;
+}
+
+.skills {
+	background-color: #034768;
+	color: #ffffff;
+}
+
+.wrapper-left {
+	display: inline-block;
+}
+
+.wrapper-right {
+	display: inline-block;
+}
+
+.wrapper-right img {
+	height: 180px;
 }
